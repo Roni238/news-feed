@@ -11,7 +11,9 @@ export default {
   generate: {
     fallback: 'index.html'
   },
-
+  router: {
+    base: '/news-feed/'
+  },
   serverMiddleware: [
     createProxyMiddleware('/api/mos', {
         target: 'https://www.mos.ru/rss',

@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy":"nuxt generate && gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.21.1",
