@@ -103,16 +103,14 @@ export default {
     margin: 3px;
     text-decoration: none;
   }
-  .info{
-
-
-    p{
-      color: #000;
-    }
+  .info p{
+    color: #000;
   }
+
   img{
     height: 100px;
     width: 200px;
+    object-fit: cover;
   }
   .source{
     position: absolute;
@@ -130,15 +128,14 @@ export default {
     bottom: 0px;
     left: 0px;
     right: 0px;
-
-    a{
-      color: #DCDCDC;
-      text-decoration: underline;
-    }
-
   }
-  a{
 
+  .source a{
+    color: #DCDCDC;
+    text-decoration: underline;
+  }
+
+  a{
     text-decoration: none;
   }
   p{

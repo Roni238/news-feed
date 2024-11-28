@@ -2,32 +2,19 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 export default {
   ssr: true,
-  target: 'static',
+  target: 'server',
 
   server: {
     host: 'localhost',
-    port: 80,
+    port: 3000,
   },
   generate: {
     fallback: 'index.html'
   },
-  
-  serverMiddleware: [
-    createProxyMiddleware('/api/mos', {
-        target: 'https://www.mos.ru/rss',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api/mos': '',
-        },
-      }),
-      createProxyMiddleware('/api/lenta', {
-        target: 'https://lenta.ru/rss/news',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/api/lenta': '',
-        },
-      }),
-  ],
+
+  router: {
+    fallback: true,
+  },
 
 
 
