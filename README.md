@@ -1,7 +1,7 @@
 # Новостная лента
 
 ## Предпросмотр
-https://news-feed-git-deploy-vercel-roni238s-projects.vercel.app/
+https://news-feed-j5b3.vercel.app/
 
 ## Начало работы
 
