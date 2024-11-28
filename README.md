@@ -1,6 +1,6 @@
 # Новосная лента
 
-№№ Предпросмотр
+## Предпросмотр
 https://news-feed-git-deploy-vercel-roni238s-projects.vercel.app/
 
 ## Начало работы
